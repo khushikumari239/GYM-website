@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>happy's fitness</title>
+</head>
+
+<link href="https://fonts.googleapis.com/css2?family=Afacad&family=Agbalumo&family=Kanit:wght@300&family=Kdam+Thmor+Pro&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="CSS/style.css">
+<style>
+    /* css reset */
+    body {
+        font-family: 'kanit', 'cursive';
+        color: antiquewhite;
+        margin: 0px;
+        padding: 0px;
+        background: url('pbg.jpg');
+    }
+
+    .left {
+        display: inline-block;
+        left: 27px;
+        top: 11px;
+        position: absolute;
+
+        /* border: 2px solid red; */
+    }
+
+    .mid {
+        display: block;
+        width: 46%;
+        margin: 22px auto;
+        /* border: 3px solid rgb(58, 198, 26); */
+    }
+
+    .right {
+        right: 36px;
+        top: 22px;
+        position: absolute;
+        display: inline-block;
+        /* border: 3px solid rgb(241, 16, 125); */
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        
+        display: inline-block;
+        font-size: 15px;
+    }
+    .navbar li a {
+    
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    } 
+    .navbar li a:hover , .navbar li a.active{  
+        text-decoration: underline;
+        color: rgb(70, 68, 68);
+
+    }
+    .left img{
+      
+  filter: invert(100%);
+
+        width: 130px;
+    }
+    .left div{
+        text-align: center;
+        line-height: 20px;
+        font-size: 20px;
+    }
+    .btn{
+        margin: 0px 10px ;
+        background-color: black;
+        color: white;
+        padding: 4px 17px;
+        border: 2px solid gray;
+        border-radius: 9px;
+        font-size: 20px;
+        cursor: pointer;
+        font-family: 'kanit', 'cursive';
+    }
+    .btn:hover{
+        background-color: rgb(76, 70, 70);
+    }
+    .container{
+        border: 3px solid rgb(240, 241, 238);
+        border-radius: 9px;
+        padding: 32px 100px;
+        margin: 135px 88px;
+        width: 45%;
+    }
+    .form-group input{
+        font-family:'kanit', 'cursive' ;
+
+        text-align: center;
+        display: block;
+        width: 508px;
+        padding: 1px;
+        border:3px solid black ;
+        margin: 11px auto;
+         font-size: 25px;
+         border-radius: 8px;
+
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 73%;
+        margin:20px auto;
+
+
+    }
+    
+</style>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="https://t4.ftcdn.net/jpg/04/22/12/95/360_F_422129557_tBylYldzJ5KjVTEdRLMkQIaYizThV1PE.jpg" alt="">
+            <div>happy's fitness</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">home</a></li>
+                <li> <a href="#">about us</a></li>
+                <li><a href="#">fitness center</a></li>
+                <li><a href="#">contact us</a></li>
+            </ul>
+
+        </div>
+        <div class="right">
+            <button class="btn">call us</button>
+            <button class="btn">email us</button>
+        </div>
+
+    </header>
+<div class="container">
+    <h1>join the best GYM of kerala NOW !!</h1>
+    <form action="noaction.php">
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Name">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your Age">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your gender">
+        </div>
+        <div class="form-group">
+            <input type="text" name="" placeholder="Enter your locality">
+        </div>
+        <button class="btn">submit</button>
+    </form>
+</div>
+</body>
+
+</html>
